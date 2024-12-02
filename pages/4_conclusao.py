@@ -7,7 +7,7 @@ def main():
     st.subheader(':gray[Resultados e Eficiência do Prophet na Previsão]', divider='red')
 
     st.markdown('''
-                Dos resultados obtidos, observamos um WMAPE de aproximadamente 7% \\ao analisarmos os últimos 10 anos, havendo variação conforme aumento ou diminuição do tempo analisado no modelo, o que indica que o mesmo está apresentando uma precisão de aproximadamente 93% nas previsões realizadas. Esse valor é considerado satisfatório, pois está relativamente baixo, sugerindo que o modelo é eficaz em capturar a maior parte da variabilidade nos dados e em prever com precisão o preço do petróleo. \n 
+                Dos resultados obtidos, observamos um WMAPE de aproximadamente 7% ao analisarmos os últimos 10 anos, havendo variação conforme aumento ou diminuição do tempo analisado no modelo, o que indica que o mesmo está apresentando uma precisão de aproximadamente 93% nas previsões realizadas. Esse valor é considerado satisfatório, pois está relativamente baixo, sugerindo que o modelo é eficaz em capturar a maior parte da variabilidade nos dados e em prever com precisão o preço do petróleo. \n 
 
                 Em suma, os resultados obtidos demonstram a robustez e a precisão do Prophet na tarefa de prever o preço do petróleo, considerando as características dos dados temporais e sazonais.
                 ''')
