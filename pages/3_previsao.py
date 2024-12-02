@@ -41,15 +41,15 @@ def main():
         years = st.number_input("Quantos anos quer usar de base? Padrão 10 anos. Mínimo 5 anos.", min_value=5, max_value=50, value=10)
 
         # Botão utilizando a função de atualização da base de dados
-        if st.button("Atualizar base de dados"):
-            if atualizar_base_dados():
-                st.write("A base de dados está atualizada.")
-                st.rerun()
-            else:
-                st.write("Erro ao atualizar base, utilizando a mais recente disponível no diretório do projeto.")
+        # if st.button("Atualizar base de dados"):
+        #     if atualizar_base_dados():
+        #         st.write("A base de dados está atualizada.")
+        #         st.rerun()
+        #     else:
+        #         st.write("Erro ao atualizar base, utilizando a mais recente disponível no diretório do projeto.")
 
-        if data_modificacao == hoje:
-            st.write("A base de dados está atualizada.")
+        # if data_modificacao == hoje:
+        #     st.write("A base de dados está atualizada.")
         
     # Tratamento dos dados
     df = df[['data', 'preco']]
