@@ -29,5 +29,6 @@ Os dados utilizados podem ser obtidos diretamente no site do IPEA, [clicando aqu
 - `util`: Pasta contendo a definição de layout utilizada no projeto;
 - `Table_extract.ipynb`: Notebook extraindo os dados do site do IPEA e salvando-os em um arquivo CSV;
 - `Tech_Challenge_04.ipynb`: Notebook contendo a análise exploratória dos dados e a previsão;
+- `Tech_Challenge_04.pbix`: Dashboard utilizado para uma melhor análise dos dados.
 - `main.py`: Arquivo principal do aplicativo do Streamlit;
 - `requirements.txt`: Arquivo com todas as dependências necessárias para o projeto.
