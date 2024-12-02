@@ -17,7 +17,7 @@ def atualizar_base_dados():
         dados[0] = pd.to_datetime(dados[0], format='%d/%m/%Y')
         dados.rename(columns={0: 'data', 1: 'preco'}, inplace=True)
         dados['preco'] = dados['preco'].str.replace('.', ',')
-        dados.to_csv('Base de dados\\dados.csv', sep=';', encoding='utf-8')
+        dados.to_csv('Base de dados/dados.csv', sep=';', encoding='utf-8')
     except:
         return False
     else:
@@ -27,7 +27,7 @@ def main():
     st.subheader(':red[Análise de Preço do Petróleo Brent 🛢️]', divider='red')
 
     # Definindo o local do arquivo de dados
-    arquivo = 'Base de dados\\dados.csv'
+    arquivo = 'Base de dados/dados.csv'
 
     df = pd.read_csv(arquivo, sep=';')
     timestamp_modificacao = os.path.getmtime(arquivo)
